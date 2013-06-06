@@ -4,7 +4,7 @@ RRCrashlytics
 Unofficial [Crashlytics](https://www.crashlytics.com/) API
 
 ### How to get Developer Token:
-This is a bit tricky. It is baked into the Crashlytics app itself... I'm disappointed... Still, what you can do is open /Crashlytics.app/Contents/MacOS/Crashlytics in vim and look for X-CRASHLYTICS-DEVELOPER-TOKEN. Hash between SUAutomaticallyInstall and X-CRASHLYTICS-DEVELOPER-TOKEN is developers token. Anyone want to write script to extract that? :)
+This is a bit tricky. It is baked into the Crashlytics app itself... I'm disappointed... Still, what you can do is open /Crashlytics.app/Contents/MacOS/Crashlytics in vim and look for `X-CRASHLYTICS-DEVELOPER-TOKEN`. Hash between `SUAutomaticallyInstall` and `X-CRASHLYTICS-DEVELOPER-TOKEN` is developers token. Anyone want to write script to extract that? :)
 
 ### Usage
 ```objc
